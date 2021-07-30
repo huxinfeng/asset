@@ -25,7 +25,15 @@ setInterval(() => {
 // Copyright;
 $("#huxinfeng_copyright").append(
 	`
-    <h4>Copyright &copy; 2021 - ${new Date().getFullYear()} <a id="huxinfeng_author" href="https://www.huxinfeng.com/" target="_blank" title="星宿君 の 代码帝国">huxinfeng.com</a> 版权所有.</h4>
+    <h4>
+        Copyright &copy; 2021 - ${new Date().getFullYear()} with
+        <i class="fa fa-heart faa-pulse animated" style="color: #e74c3c"></i>
+        by 星宿君
+        <a id="huxinfeng_author" href="https://www.huxinfeng.com/" target="_blank" title="星宿君 の 代码帝国">
+            huxinfeng.com
+        </a>
+        版权所有.
+    </h4>
     <a href="https://www.12377.cn" target="_blank" one-link-mark="yes">
         <img style="vertical-align: middle" alt="www.12377.cn" src="https://cdn.jsdelivr.net/gh/huxinfeng/asset@latest/image/icon_www.12377.cn.png" />
         中国互联网违法和不良信息举报中心
@@ -64,5 +72,5 @@ Utils.setStyle(
         transform: scale(1.05);
         box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 10%);
     }
-    `
+`
 );

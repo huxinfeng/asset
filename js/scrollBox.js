@@ -1,5 +1,5 @@
 // 导入工具库
-import Utils from "./Utils.js";
+import Utils from "https://cdn.jsdelivr.net/gh/huxinfeng/asset@latest/js/Utils.min.js";
 
 let scrollBox = document.body.appendChild(document.createElement("div"));
 scrollBox.style.position = "absolute";

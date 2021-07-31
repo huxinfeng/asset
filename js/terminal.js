@@ -1,5 +1,5 @@
 // 导入工具库
-import Utils from "https://cdn.jsdelivr.net/gh/huxinfeng/asset@latest/js/Utils.min.js";
+import Utils from "./Utils.js";
 
 let terminal = document.body.appendChild(document.createElement("div"));
 terminal.setAttribute("class", "terminal");

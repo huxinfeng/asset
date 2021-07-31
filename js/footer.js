@@ -46,11 +46,6 @@ $("#huxinfeng_copyright").append(
     |
     <a href="https://beian.miit.gov.cn/" target="_blank" one-link-mark="yes">京ICP备2021019764号-1</a>
     |
-    <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=" target="_blank" one-link-mark="yes">
-        <img style="vertical-align: middle" alt="www.bjjubao.org" src="https://cdn.jsdelivr.net/gh/huxinfeng/asset@latest/image/icon_www.beian.gov.cn.png" />
-        申请中。。。
-    </a>
-    |
     <a href="https://cdn.jsdelivr.net/gh/huxinfeng/asset@latest/image/huxinfeng.com.certificate.jpg" target="_blank" one-link-mark="yes">域名证书</a>
     `
 );

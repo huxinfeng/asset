@@ -1,4 +1,4 @@
-import Utils from "https://cdn.jsdelivr.net/gh/huxinfeng/asset@latest/js/Utils.min.js";
+import Utils from "./Utils.js";
 
 // 统计运时间
 function runtime(startTime) {

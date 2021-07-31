@@ -4,7 +4,8 @@ export default class Utils {
             let style = document.createElement("style");
             document.head.appendChild(style);
         }
-        let sheet = document.styleSheets[document.styleSheets.length - 1];
+//         let sheet = document.styleSheets[document.styleSheets.length - 1];
+        let sheet = document.styleSheets[0];
         str.replace(/\n/g, "").match(/.*?\{.*?\}/g).forEach(function (item) {
             let arr = item.match(/(.*?)\{(.*?)\}/).slice(1);
             sheet.addRule(arr[0].trim(), arr[1].trim(), sheet.rules.length);

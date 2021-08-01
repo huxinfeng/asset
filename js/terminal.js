@@ -14,7 +14,7 @@ terminal.innerHTML = `
 			<div class="cursor">_</div>
 			<div class="c">
 				请返回至主站点
-				<span class="heart">&hearts;</span>
+				<i class="fa fa-heart faa-pulse animated" style="color: #e74c3c"></i>
 				by
 				<a href="https://www.huxinfeng.com" title="(◕ˇ∀ˇ◕)"> 星宿君 の 极客帝国 </a>
 			</div>`;

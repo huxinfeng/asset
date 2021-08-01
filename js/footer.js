@@ -51,7 +51,7 @@ $("#huxinfeng_copyright").append(
 );
 
 // Copyright样式;
-Utils.setStyle(
+/* Utils.setStyle(
 	`
     #huxinfeng_author {
         color: rgba(228, 63, 90, .8);
@@ -69,3 +69,4 @@ Utils.setStyle(
     }
 `
 );
+*/

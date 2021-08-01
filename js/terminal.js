@@ -16,7 +16,7 @@ terminal.innerHTML = `
 				请返回至主站点
 				<span class="heart">&hearts;</span>
 				by
-				<a href="https://www.huxinfeng.com" title="(◕ˇ∀ˇ◕)"> 星宿君の个人站点 </a>
+				<a href="https://www.huxinfeng.com" title="(◕ˇ∀ˇ◕)"> 星宿君 の 极客帝国 </a>
 			</div>`;
 
 //引入css

@@ -6,7 +6,7 @@ function runtime(startTime) {
 	let now = new Date();
 	let runtime = now.getTime() - start.getTime();
 	$("#huxinfeng_runtime").html(
-		"该站点已在暴风雨中运行 " +
+		"该站点已在暴风雨中运行了 " +
 			Math.floor(runtime / 1000 / 60 / 60 / 24) +
 			" 天 " +
 			(Math.floor(runtime / 1000 / 60 / 60) % 24) +
